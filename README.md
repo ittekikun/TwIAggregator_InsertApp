@@ -31,7 +31,7 @@ TwIAggregatorは表示アプリとDB挿入アプリが独立しており、こ�
 cron等で定期実行して下さい。
 
 ## Install
-###データベース、テーブルを作成
+### データベース、テーブルを作成
 ※テーブル名は変更可能ですが、下記SQLとinsertDB.pyのSQLを自分で書き換える必要があります。
 ```SQL
 CREATE TABLE `tweets` (
@@ -52,7 +52,7 @@ ALTER TABLE `tweets`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ```
 
-###ライブラリをインストール
+### ライブラリをインストール
 ```bash
 pip install -r requirements.txt
 ```
