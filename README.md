@@ -1,22 +1,15 @@
-TwIAggregator_InsertApp
+tweet_insert_app_C99
 ====
 
-TwIAggregatorのDB挿入アプリです。  
-Python製です。
+コミックマーケット99で頒布した「RTした神絵師のツイートをデータベースで管理しよう！」の付録です。
 
-Copyright (c) 2020 ittekikun.
-
-## Description
-TwIAggregatorは表示アプリとDB挿入アプリが独立しており、こちらはDB挿入プログラムです。
-
-## ※Warnning※
-現在こちらのプログラムはベータ版となっております。
-特にデータベース設計は現在考案中で、型の設定が甘かったり、APIから取得した生のjsonを入れておくカラムもそのままになっています。（仕様変更に対応するため）  
-仮にデータベース設計を変更した場合は可能な限り移行をサポートする予定です。
+Copyright (c) 2020-2021 ittekikun.
 
 ## Requirement
-* Python 3 (3.6で開発中)
-* MariaDB (文字セットでutf8mb4を使えるように設定して下さい)
+* Python@3.8.12  
+* tweepy@3.8.0  
+* mysqlclient@1.4.6
+* MariaDB@10.6.5
 
 ## Usage
 ### 初回実行時
